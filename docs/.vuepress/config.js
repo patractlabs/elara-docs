@@ -14,5 +14,8 @@ module.exports = {
             {text:'Elara',link:'https://elara.patract.io/#/'}
             
         ]
-    }
+    },
+    head:[
+        ['link',{rel:'shortcut icon',type:"image/x-icon",href:"https://elara.patract.io/favicon.ico"}]
+    ]
   }
