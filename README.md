@@ -19,7 +19,7 @@ yarn docs:build
 ## Contributing
 Pull requests are very welcome.
 
-You can add or edit the markdown file corresponding to the chain name in the `./docs/01.JSON-RPC Methods--nc/` directory (for example, `Kusama` is `./docs/01.JSON-RPC Methods --nc/01 Kusama.md`).
+You can add or edit the markdown file corresponding to the chain name in the `./docs/01.JSON-RPC Methods--nc,d2/` directory (for example, `Kusama` is `./01.JSON-RPC Methods--nc,d2/02 Kusama.md`).
 
 ## Contact us
 If you have any questions, please submit an issue. Or you can email us <elara@patract.io>.
