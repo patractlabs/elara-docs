@@ -25,7 +25,7 @@ None.
 Request:
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "system_name", "params":[]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "system_name", "params":[]}' https://polkadot.elara.patract.io
 ```
 
 Response:
@@ -56,7 +56,7 @@ None.
 Request:
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "system_version", "params":[]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "system_version", "params":[]}' https://polkadot.elara.patract.io
 ```
 
 Response:
@@ -86,7 +86,7 @@ None.
 Request:
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "system_chain", "params":[]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "system_chain", "params":[]}' https://polkadot.elara.patract.io
 ```
 
 Response:
@@ -116,7 +116,7 @@ None.
 Request:
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "system_chainType", "params":[]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "system_chainType", "params":[]}' https://polkadot.elara.patract.io
 ```
 
 Response:
@@ -147,7 +147,7 @@ None.
 Request:
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "system_properties", "params":[]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "system_properties", "params":[]}' https://polkadot.elara.patract.io
 ```
 
 Response:
@@ -190,7 +190,7 @@ None.
 Request:
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "system_health", "params":[]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "system_health", "params":[]}' https://polkadot.elara.patract.io
 ```
 
 Response:
@@ -224,7 +224,7 @@ None.
 Request:
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "system_localPeerId", "params":[]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "system_localPeerId", "params":[]}' https://polkadot.elara.patract.io
 ```
 
 Response:
@@ -258,7 +258,7 @@ None.
 Request:
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "system_localListenAddresses", "params":[]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "system_localListenAddresses", "params":[]}' https://polkadot.elara.patract.io
 ```
 
 Response:
@@ -298,7 +298,7 @@ None.
 Request:
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "system_peers", "params":[]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "system_peers", "params":[]}' https://polkadot.elara.patract.io
 ```
 
 Response:
@@ -352,7 +352,7 @@ None.
 Request:
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "system_addReservedPeer", "params":["/ip4/198.51.100.19/tcp/30333/p2p/QmSk5HQbn6LhUwDiNMseVUjuRYhEtYj4aUZ6WfWoGURpdV"]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "system_addReservedPeer", "params":["/ip4/198.51.100.19/tcp/30333/p2p/QmSk5HQbn6LhUwDiNMseVUjuRYhEtYj4aUZ6WfWoGURpdV"]}' https://polkadot.elara.patract.io
 ```
 
 Response
@@ -385,7 +385,7 @@ None.
 Request:
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "system_removeReservedPeer", "params":["QmSk5HQbn6LhUwDiNMseVUjuRYhEtYj4aUZ6WfWoGURpdV"]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "system_removeReservedPeer", "params":["QmSk5HQbn6LhUwDiNMseVUjuRYhEtYj4aUZ6WfWoGURpdV"]}' https://polkadot.elara.patract.io
 ```
 
 Response"
@@ -421,7 +421,7 @@ None.
 Request:
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "system_nodeRoles", "params":[]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "system_nodeRoles", "params":[]}' https://polkadot.elara.patract.io
 ```
 
 Response:
@@ -454,7 +454,7 @@ None.
 Request:
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "system_syncState", "params":[]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "system_syncState", "params":[]}' https://polkadot.elara.patract.io
 ```
 
 Response:
@@ -494,7 +494,7 @@ Alias: `account_nextIndex`
 Request:
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "system_accountNextIndex", "params":["FJaSzBUAJ1Nwa1u5TbKAFZG5MBtcUouTixdP7hAkmce2SDS"]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "system_accountNextIndex", "params":["FJaSzBUAJ1Nwa1u5TbKAFZG5MBtcUouTixdP7hAkmce2SDS"]}' https://polkadot.elara.patract.io
 ```
 
 Response:
@@ -657,7 +657,7 @@ None.
 Request:
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "author_insertKey", "params":["dumy", "0x3fb882f70b4ddf5f8923f4a2d3b30a20f79bc0c5de212c1a8977f4972272db8d", "0x5ebf69cfbb4914711f70ff3b9e7455f7d5006b15f220d011387038cf4fb1593e"]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "author_insertKey", "params":["dumy", "0x3fb882f70b4ddf5f8923f4a2d3b30a20f79bc0c5de212c1a8977f4972272db8d", "0x5ebf69cfbb4914711f70ff3b9e7455f7d5006b15f220d011387038cf4fb1593e"]}' https://polkadot.elara.patract.io
 ```
 
 Response:
@@ -689,7 +689,7 @@ None.
 Request:
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "author_rotateKeys", "params":[]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "author_rotateKeys", "params":[]}' https://polkadot.elara.patract.io
 ```
 
 Response:
@@ -719,7 +719,7 @@ Checks if the keystore has private keys for the given session public keys.
 Request:
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "author_hasSessionKeys", "params":["0x8c0baa0b4cf42e669a3805c1d6405926c9adf0691f854a6ddaffde3abc1dbd6b7c70cc7d2a731186ec54e26e0b0509667376d818643a5969549e44a76dc42f5a041b0120d2fc6d686e1bec66f596ddcce78da4029a23b3c213c55d2a064e9c26a20ab338080835b845e71573c3197795b729a1015b504a8352ee7dcbce92296c28bcc393e3cb1b18f597c597a458e21f706374e75f35445132977a66519d731d"]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "author_hasSessionKeys", "params":["0x8c0baa0b4cf42e669a3805c1d6405926c9adf0691f854a6ddaffde3abc1dbd6b7c70cc7d2a731186ec54e26e0b0509667376d818643a5969549e44a76dc42f5a041b0120d2fc6d686e1bec66f596ddcce78da4029a23b3c213c55d2a064e9c26a20ab338080835b845e71573c3197795b729a1015b504a8352ee7dcbce92296c28bcc393e3cb1b18f597c597a458e21f706374e75f35445132977a66519d731d"]}' https://polkadot.elara.patract.io
 ```
 
 Response:
@@ -751,7 +751,7 @@ Request:
 
 ```bash
 // Request
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "author_hasKey", "params":["0x5ebf69cfbb4914711f70ff3b9e7455f7d5006b15f220d011387038cf4fb1593e", "dumy"]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "author_hasKey", "params":["0x5ebf69cfbb4914711f70ff3b9e7455f7d5006b15f220d011387038cf4fb1593e", "dumy"]}' https://polkadot.elara.patract.io
 ```
 
 Response:
@@ -905,7 +905,7 @@ returned.
 Request:
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "chain_getHeader", "params":[]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "chain_getHeader", "params":[]}' https://polkadot.elara.patract.io
 ```
 
 Response:
@@ -960,7 +960,7 @@ be returned.
 Request:
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "chain_getBlock", "params":[]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "chain_getBlock", "params":[]}' https://polkadot.elara.patract.io
 ```
 
 Response:
@@ -1020,7 +1020,7 @@ One of the following types gets returned, depending on the provided parameters:
 Request:
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "chain_getBlockHash", "params":[50, "0x64", 200]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "chain_getBlockHash", "params":[50, "0x64", 200]}' https://polkadot.elara.patract.io
 ```
 
 Response:
@@ -1056,7 +1056,7 @@ None.
 Request:
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "chain_getFinalizedHead", "params":[]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "chain_getFinalizedHead", "params":[]}' https://polkadot.elara.patract.io
 ```
 
 Response:
@@ -1389,7 +1389,7 @@ None.
 Request:
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "offchain_localStorageSet", "params":["PERSISTENT","0x4B6579","0x56616C7565"]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "offchain_localStorageSet", "params":["PERSISTENT","0x4B6579","0x56616C7565"]}' https://polkadot.elara.patract.io
 ```
 
 Response:
@@ -1420,7 +1420,7 @@ Get offchain local storage under given key and prefix.
 Request:
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "offchain_localStorageGet", "params":["PERSISTENT","0x4B6579"]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "offchain_localStorageGet", "params":["PERSISTENT","0x4B6579"]}' https://polkadot.elara.patract.io
 ```
 
 Response:
@@ -1476,7 +1476,7 @@ Returns the keys with prefix, leave empty to get all the keys.
 Request:
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "state_getPairs", "params":["0x", null]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "state_getPairs", "params":["0x", null]}' https://polkadot.elara.patract.io
 ```
 
 Response (shortened):
@@ -1516,7 +1516,7 @@ Returns the keys with prefix with pagination support.
 Request:
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "state_getKeysPaged", "params":[null, 2]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "state_getKeysPaged", "params":[null, 2]}' https://polkadot.elara.patract.io
 ```
 
 Response:
@@ -1551,7 +1551,7 @@ is returned.
 Request:
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "state_getStorage", "params":["0xc2261276cc9d1f8598ea4b6a74b15c2f6482b9ade7bc6657aaca787ba1add3b458ad08561bd8f502d2ba488697d10b58aaa7c4097d4abb1c8861495348fd6970", null]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "state_getStorage", "params":["0xc2261276cc9d1f8598ea4b6a74b15c2f6482b9ade7bc6657aaca787ba1add3b458ad08561bd8f502d2ba488697d10b58aaa7c4097d4abb1c8861495348fd6970", null]}' https://polkadot.elara.patract.io
 ```
 
 Response:
@@ -1583,7 +1583,7 @@ value is returned.
 Request:
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "state_getStorageHash", "params":["0xc2261276cc9d1f8598ea4b6a74b15c2f6482b9ade7bc6657aaca787ba1add3b458ad08561bd8f502d2ba488697d10b58aaa7c4097d4abb1c8861495348fd6970", "0x579deccea7183c2afedbdaea59ad23e970458186afc4d57d5577842d4a219925"]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "state_getStorageHash", "params":["0xc2261276cc9d1f8598ea4b6a74b15c2f6482b9ade7bc6657aaca787ba1add3b458ad08561bd8f502d2ba488697d10b58aaa7c4097d4abb1c8861495348fd6970", "0x579deccea7183c2afedbdaea59ad23e970458186afc4d57d5577842d4a219925"]}' https://polkadot.elara.patract.io
 ```
 
 Response:
@@ -1615,7 +1615,7 @@ value is used.
 Request:
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "state_getStorageSize", "params":["0xc2261276cc9d1f8598ea4b6a74b15c2f6482b9ade7bc6657aaca787ba1add3b458ad08561bd8f502d2ba488697d10b58aaa7c4097d4abb1c8861495348fd6970", null]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "state_getStorageSize", "params":["0xc2261276cc9d1f8598ea4b6a74b15c2f6482b9ade7bc6657aaca787ba1add3b458ad08561bd8f502d2ba488697d10b58aaa7c4097d4abb1c8861495348fd6970", null]}' https://polkadot.elara.patract.io
 ```
 
 Response:
@@ -1645,7 +1645,7 @@ Returns the runtime metadata.
 Request:
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "state_getMetadata", "params":[null]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "state_getMetadata", "params":[null]}' https://polkadot.elara.patract.io
 ```
 
 Response (shortened):
@@ -1685,7 +1685,7 @@ returned.
 Request:
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "state_getRuntimeVersion", "params":[]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "state_getRuntimeVersion", "params":[]}' https://polkadot.elara.patract.io
 ```
 
 Response (shortened):
@@ -1739,7 +1739,7 @@ values in the array represent changes to the previous state (diffs).
 Request:
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "state_queryStorage", "params":[["0xf2794c22e353e9a839f12faab03a911bf68967d635641a7087e53f2bff1ecad3c6756fee45ec79ead60347fffb770bcdf0ec74da701ab3d6495986fe1ecc3027"], "0xa32c60dee8647b07435ae7583eb35cee606209a595718562dd4a486a07b6de15", null]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "state_queryStorage", "params":[["0xf2794c22e353e9a839f12faab03a911bf68967d635641a7087e53f2bff1ecad3c6756fee45ec79ead60347fffb770bcdf0ec74da701ab3d6495986fe1ecc3027"], "0xa32c60dee8647b07435ae7583eb35cee606209a595718562dd4a486a07b6de15", null]}' https://polkadot.elara.patract.io
 ```
 
 Response:
@@ -1784,7 +1784,7 @@ Returns the proof of storage entries.
 Request:
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "state_getReadProof", "params":[["0x1a736d37504c2e3fb73dad160c55b2918ee7418a6531173d60d1f6a82d8f4d51c16ee72ac33a6a9e5e887792c26526f9cc080000"], null]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "state_getReadProof", "params":[["0x1a736d37504c2e3fb73dad160c55b2918ee7418a6531173d60d1f6a82d8f4d51c16ee72ac33a6a9e5e887792c26526f9cc080000"], null]}' https://polkadot.elara.patract.io
 ```
 
 Response (shortened):
