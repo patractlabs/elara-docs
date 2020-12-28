@@ -2,10 +2,18 @@ module.exports = {
     plugins: {
      "autobar":{
          maxLevel:4,
-         skipEmptySidebar:true
+         skipEmptySidebar:true,
+         collapsable:true
      }
     },
+  
+    markdown:{
+        toc:{
+            includeLevel:[1,2,3,4]
+        }
+    },
     themeConfig:{
+        sidebarDepth:3,
         lastUpdated:'Last Updated',
         nextLinks:true,
         prevLink:false,
@@ -13,6 +21,11 @@ module.exports = {
         nav:[
             {text:'Elara',link:'https://elara.patract.io/#/'}
             
+        ],
+        sidebar:[
+        {
+            collapsable:true
+        }
         ]
     },
     head:[
