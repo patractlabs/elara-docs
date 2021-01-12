@@ -1,3 +1,0 @@
-# Kusama
-
-coming soon...

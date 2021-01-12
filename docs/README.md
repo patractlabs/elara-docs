@@ -9,22 +9,32 @@ Visit online address: <https://docs.elara.patract.io/>
 ## Contributing
 Pull requests are very welcome.
 
-You can add or edit the markdown file corresponding to the chain name in the `./docs/01.JSON-RPC Methods--nc/` directory (for example, `Kusama` is `./docs/01.JSON-RPC Methods --nc/01 Kusama.md`).
+You can add or edit the markdown file corresponding to the chain name in the `./docs/01.JSON-RPC Methods--nc/` directory (for example, `Mandala` is `./docs/01.JSON-RPC Methods --nc/02 Mandala.md`).
 
 ## Contact us
 If you have any questions, please submit an issue. Or you can email us <elara@patract.io>.
 
-## Coming soon
+
+## Support Chains
 - Polkadot
 - Kusama
-- Centrifuge
+
+## Coming soon
+- Mandala
 - Darwinia
 - Dock
 - Edgeware
-- Equilibrium 
-- hannonycash
 - Kulupu
 - Nodle
 - Plasm
 - Stafi
-- Subsocial
+
+## How to Build
+For DEV
+```
+npm run docs:dev
+```
+For Release
+```
+npm run docs:build
+```
