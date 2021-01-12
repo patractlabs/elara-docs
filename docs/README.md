@@ -29,12 +29,3 @@ If you have any questions, please submit an issue. Or you can email us <elara@pa
 - Plasm
 - Stafi
 
-## How to Build
-For DEV
-```
-npm run docs:dev
-```
-For Release
-```
-npm run docs:build
-```
