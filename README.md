@@ -27,9 +27,10 @@ If you have any questions, please submit an issue. Or you can email us <elara@pa
 ## Support Chains
 - Polkadot
 - Kusama
+- Mandala
 
 ## Coming soon
-- Mandala
+
 - Darwinia
 - Dock
 - Edgeware

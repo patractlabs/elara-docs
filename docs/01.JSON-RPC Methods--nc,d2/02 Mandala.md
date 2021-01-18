@@ -22,7 +22,7 @@ Retrieves the oracle value for a given key.
 Request:
 
 ```bash
-curl --location --request POST 'https://node-6714447553777491968.jm.onfinality.io/rpc' \
+curl --location --request POST 'https://mandala.elara.patract.io' \
 --header 'Content-Type: application/json' \
 --data-raw '{
   "id": "42", 
@@ -62,7 +62,7 @@ Retrieves all oracle values.
 Request:
 
 ```bash
-curl --location --request POST 'https://node-6714447553777491968.jm.onfinality.io/rpc' \
+curl --location --request POST 'https://mandala.elara.patract.io' \
 --header 'Content-Type: application/json' \
 --data-raw '{
   "id": "42", 
