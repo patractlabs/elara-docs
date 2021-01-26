@@ -14,6 +14,7 @@ You can add or edit the markdown file corresponding to the chain name in the `./
 ## Contact us
 If you have any questions, please submit an issue. Or you can email us <elara@patract.io>.
 
+Riot Group for disscusion:  https://app.element.io/#/room/!sezLvdnMOcNSSAKcZg:matrix.org
 
 ## Support Chains
 - Polkadot
