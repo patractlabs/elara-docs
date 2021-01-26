@@ -29,9 +29,10 @@ Riot Group for disscusion:  https://app.element.io/#/room/!sezLvdnMOcNSSAKcZg:ma
 ## Support Chains
 - Polkadot
 - Kusama
+- Mandala
 
 ## Coming soon
-- Mandala
+
 - Darwinia
 - Dock
 - Edgeware
