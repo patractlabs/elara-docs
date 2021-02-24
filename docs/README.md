@@ -20,9 +20,9 @@ Riot Group for disscusion:  https://app.element.io/#/room/!sezLvdnMOcNSSAKcZg:ma
 - Polkadot
 - Kusama
 - Mandala
+- Darwinia
 
 ## Coming soon
-- Darwinia
 - Dock
 - Edgeware
 - Kulupu
